@@ -20,17 +20,17 @@ h1 {
 }
 
 header > nav > ul > li {
-display: inline-block;
-width: 100px; 
-text-align: center;
+    display: inline-block;
+    width: 100px; 
+    text-align: center;
 
 /*mock button styling */
-background-color: rgb(164, 185, 122);
-border: 1px solid black;
-border-radious: 25px;
-margin: 5px;
-margin-top: 50px;
-padding: 5px;
+    background-color: rgb(164, 185, 122);
+    border: 1px solid black;
+    border-radious: 25px;
+    margin: 5px;
+    margin-top: 50px;
+    padding: 5px;
 
 }    
 
@@ -40,7 +40,7 @@ hearder > nav {
 }
 
 header > nav > ul > li > a {
-color: inherit;
+    color: inherit;
 
 }
 
@@ -49,5 +49,16 @@ color: inherit;
 header > img {
     width: 50px;
     margin: 10px;
-    
+
+    main {
+    margin: 0px auto;
+    width: 960px;
+}
+   
+section {
+    width: 250px;
+    display: inline-block;
+
+}
+
 /* footer area */
