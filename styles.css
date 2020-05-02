@@ -13,12 +13,6 @@ header {
     height: 186px;
 }
 
-header > img {
-width: 25px;
-margin: 10px;
-float: left;
-}
-
 h1 {
     text-align: center;
     padding: 30px;
