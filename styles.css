@@ -1,64 +1,73 @@
 /*entire page */
 body { 
-    background-color: rgba(255, 214, 143 .100);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb (168, 255, 226, .100);
+    background-color: #FF74B3;
+    font-family: cursive;
+    color: #FFFFFF;
+    text-shadow: 2px 2px #A882FF; 
+    text-align: center;
 }
 
 /* header area */
 header {
+    background-color: #FFB280;
     margin: 0px auto;
-    width: 960px;
-    background-color: rgb (255, 126, 208 .100);
-    height: 186px;
+    font-size: 1.5rem;
 }
 
 h1 {
     text-align: center;
     padding: 30px;
-    margin-left: 250px;
+    margin: 0px auto;
+    outline: 10px double; 
 }
 
 header > nav > ul > li {
     display: inline-block;
-    width: 100px; 
+    width: 250px; 
     text-align: center;
-
+    
 /*mock button styling */
-    background-color: rgb(164, 185, 122);
+    background-color: #A882FF;
     border: 1px solid black;
-    border-radious: 25px;
+    border-radius: 25px;
     margin: 5px;
     margin-top: 50px;
     padding: 5px;
-
 }    
 
-hearder > nav {
-    float: right;
-
-}
-
-header > nav > ul > li > a {
-    color: inherit;
-
+header > nav {
+    float: center;
 }
 
 /* main body area */
-
-header > img {
-    width: 50px;
-    margin: 10px;
-
-    main {
-    margin: 0px auto;
-    width: 960px;
+article {
+    outline: 4px solid;
+    font-size: 25px
+    display: inline-block
+    
 }
-   
-section {
-    width: 250px;
-    display: inline-block;
 
+h3 {
+    font-size: 30px
+}
+
+.img-newborn {
+    width: 300px;
+}
+.img-journal {
+    width: 300px;
+}
+.img-Mikaela {
+    width: 300px;
+}
+
+section {
+    /*width: 500px;*/
+    /*display: inline-block;*/
 }
 
 /* footer area */
+footer {
+    text-align: left;
+    background-color: #FFB280;
+}
