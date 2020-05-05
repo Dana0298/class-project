@@ -41,11 +41,10 @@ header > nav {
 }
 
 /* main body area */
-section {
-    margin: 0px;
-    display: inline-block;
-    font-size: 25px;
-      
+main {
+    margin: 30px auto;
+    width: 960px;
+    
 }
 
 .columns {
@@ -54,7 +53,7 @@ section {
 }
 
 h3 {
-    font-size: 25px
+    font-size: 28px
 }
 
 .img-newborn {
@@ -64,7 +63,7 @@ h3 {
     width: 260px;
 }
 .img-Mikaela {
-    width: 160px;
+    width: 200px;
   
 }
 p {
