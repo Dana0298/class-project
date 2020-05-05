@@ -5,6 +5,7 @@ body {
     color: #FFFFFF;
     text-shadow: 2px 2px #A882FF; 
     text-align: center;
+
 }
 
 /* header area */
@@ -64,8 +65,13 @@ h3 {
 }
 .img-rainbow {
     width: 200px;
-  
 }
+
+.img-babysleeping {
+    width: 200px;
+}
+    
+
 p {
     font-size: 18px;
     text-align: center;

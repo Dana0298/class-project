@@ -1,13 +1,13 @@
-var response = prompt('Would you like to see photos of Mikaela?');
-var message;
+var response = prompt('Would you like to see Mikaela smiling or sleeping?');
+var item;
 
-if (response === 'yes') {
-    message = 'Click the link at the bottom of the page to see my photos!';
-}  else if (response === 'no') {
-        message = 'Mmm, not sure if you are at the right website...'
+if (response === 'smiling') {
+    item = '<img src ="images/blueshirt.jpg">';
+}  else if (response === 'sleeping') {
+        item = '<img src ="images/babysleeping.jpg">';
 }  else {
-        message = 'fine, whateve!';
-    }
-    
-    document.write('<h3>' + message + '</h3>');
- 
+        item = 'fine, whateve!';
+}
+  
+document.write('<p>' + item + '</p>');
+/*document.write('<h3>' + item + '</h3>');

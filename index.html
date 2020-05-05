@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mikaela Perez</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="js/app.js"></script>
 </head>
 <body>
-
     <header>
         <h1>Mikaela Perez</h1>
         <nav>
@@ -19,15 +20,17 @@
         </nav>
     </header>
 
-    
+
     <main>
-        <script src="js/ask-name.js"></script>
-        <script src="js/add-greeting.js"></script>
-        <script src="js/ask-photo.js"></script>
+        <script>askName();</script>
+        <script>offerGreeting();</script>
+        <script>askPhoto();</script>
+        <script>document.write('<h3>Welcome to my page!</h3>');
+        </script>
         <section class="columns">
             <h3>I'm here!</h3>
             <img class="img-newborn" src="images/newborn.jpg" alt="Newborn Mikaela">
-            <p> I was born on January 09, 2020 at 12:01 p.m. I weighed 8 lbs, 1 oz and was 20 inches long. 
+            <p> I was born on January 09, 2020 at 12:01 p.m. I weighed 8 lbs, 1 oz and was 20 inches long.
             </p>
         </section>
         <section class="columns">
@@ -37,10 +40,10 @@
             <li><a href="#">Mom's Journal</a></li>
         </section>
         <section class="columns"></section>
-            <h3>Photo Gallery</h3>
-            <img class="img-rainbow" src="images/rainbow.jpg" alt="Rainbow smile">
-            <p>Check out all my photos and videos in the gallery.</p>
-            <li><a href="#">Gallery</a></li>
+        <h3>Photo Gallery</h3>
+        <img class="img-rainbow" src="images/rainbow.jpg" alt="Rainbow smile">
+        <p>Check out all my photos and videos in the gallery.</p>
+        <li><a href="#">Gallery</a></li>
         </section>
     </main>
 
@@ -51,6 +54,7 @@
             </ul>
         </nav>
         <p>&copy; 2020 Mikaela Perez</p>
-    </footer>  
+    </footer>
 </body>
+
 </html>
