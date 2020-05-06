@@ -16,12 +16,48 @@ function offerGreeting() {
 
 function askName() {
     var userName = prompt('What is your name?');
-
-return document.write('<h3>Hello ' + userName + '!</h3>');
+        while(userName == ''){
+            userName = prompt('PlEASE enter your name.')
+        }
+    return document.write('<h3>Hello ' + userName + '!</h3>');
 
 }
+function howMany() {
+    var count = prompt('How many pictures of Mikaela do you want to order?');
+    while (count === '' || isNaN(count)) {
+        count = prompt('Please enter a number.  How many pictures do you want to order?');
+    }
+    return Number(count);
+}
 
-function askPhoto() {
+function getItem() {
+    var order = '';
+    var item;
+
+    while (order !== 'color' && order !== 'black & white') {
+        order = prompt('How would you like to receive a picture of Mikaela? In "color" or "black & white"?');
+    }
+
+    if (order === 'color') {
+        item = '<img style="border:none;" src="images/b&wpic.jpg">';
+    } else if (order === 'black & white') {
+        item = '<img style="border:none;" src="images/colorpic.jpg">';
+    }
+    return item;
+}
+
+function showOrder() {
+    var item = getItem();
+    var total = howMany();
+    var result = '';
+
+    for (var i = 0; i < total; i++) {
+        var realCount = i + 1;
+        result = result + '<p style="width="150"; display: inline-block; border: 1px solid blue;">item #' + realCount + ' ' + item + '</p>'
+    }
+    return document.write(result);
+}
+/* function askPhoto() {
     var response = prompt('Would you like to see Mikaela smiling or sleeping?');
 var item;
 
